@@ -4,11 +4,25 @@
     box-sizing: border-box;
 }
 header {
-    height: 70px;
+    height: 130px;
     background-color: #639EF8;
     background-image: url("../img/pattern.png");
     background-size: 35%;
+    margin-bottom: 10px;
 } 
 #logo {
     width: 20%;
+    padding-top: 50px;
+}
+#thebooleaner {
+    color: #51A7E0;
+}
+.color-grey {
+    color: #808080;
+}
+.small-text {
+    font-size: 12px;
+}
+.margin-left {
+    margin-left: 8px;
 }
