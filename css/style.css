@@ -9,20 +9,62 @@ header {
     background-image: url("../img/pattern.png");
     background-size: 35%;
     margin-bottom: 10px;
-} 
+}
+.p-10 {
+    padding: 10px;
+}
+header, main, footer {
+    padding: 20px;
+}
 #logo {
     width: 20%;
     padding-top: 50px;
+    margin-bottom: 50px;
 }
-#thebooleaner {
-    color: #51A7E0;
+.bg-blue {
+    background-color: #51A7E0;
 }
 .color-grey {
     color: #808080;
 }
+.color-white {
+    color: #ffffff;
+}
+.color-blue {
+    color: #51A7E0;
+}
+.bg-lightblue {
+    background-color: #bce3f0;
+}
 .small-text {
     font-size: 12px;
 }
-.margin-left {
-    margin-left: 8px;
+.highlight {
+    background-color: #ff0;
+}
+.image {
+    width: 210px;
+    height: 160px;
+    margin-bottom: 10px;
+}
+#img-monitor {
+    background-image: url(../img/monitor.jpg);
+}
+#img-graph {
+    background-image: url(../img/graph.jpg);
+}
+ul {
+    margin-left: 13px;
+}
+.text-left {
+    text-align: left;
+}
+article table {
+    border-spacing: 0;
+}
+article table th.text {
+    width: 50%;
+}
+.text-bold {
+    font-weight: bold;
 }
